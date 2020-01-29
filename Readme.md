@@ -2,7 +2,7 @@
 
 This example includes the server-side (backend) application that is an ASP.NET MVC application created from the DevExpress Visual Studio template as described in the [Report Designer's Server-Side Configuration (ASP.NET MVC)](https://docs.devexpress.com/XtraReports/118371) topic.
 
-The client-side (front-end) application is created as described in the [Report Designer Integration in Angular)](https://docs.devexpress.com/XtraReports/119431) document.
+The client-side (front-end) application is created as described in the [Report Designer Integration in Angular](https://docs.devexpress.com/XtraReports/119431) document.
 
 To run the example, perform the following steps:
 
