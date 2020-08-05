@@ -10,13 +10,11 @@ To run the example, perform the following steps:
 2. Run the Visual Studio project.
 2. Open the command prompt, navigate to the **JS\angular-report-designer** folder and run the commands:
     
-    ```
-    npm install
-    ```
+```
+npm install
+ng serve
+```
 
-    ```
-    ng serve
-    ```
 5. Open the URL **localhost:4200**  in your browser.
 
 ![](/images/screenshot.png)
