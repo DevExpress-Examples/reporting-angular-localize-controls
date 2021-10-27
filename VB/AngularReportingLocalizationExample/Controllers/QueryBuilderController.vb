@@ -7,7 +7,7 @@ Imports System.Web.Mvc
 
 Namespace AngularReportingLocalizationExample.Controllers
 	Public Class QueryBuilderController
-		Inherits QueryBuilderApiController
+		Inherits QueryBuilderApiControllerBase
 
 		' GET: QueryBuilder
 		Public Function Index() As ActionResult
