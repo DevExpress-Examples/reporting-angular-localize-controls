@@ -22,10 +22,10 @@
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1",
-    "devextreme": "^20.2.10",
-    "devexpress-richedit": "^20.2.10",
-    "@devexpress/analytics-core": "^20.2.10",
-    "devexpress-reporting-angular": "^20.2.10"
+    "devextreme": "^21.1.7",
+    "devexpress-richedit": "^21.1.7",
+    "@devexpress/analytics-core": "^21.1.7",
+    "devexpress-reporting-angular": "^21.1.7"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.803.23",
