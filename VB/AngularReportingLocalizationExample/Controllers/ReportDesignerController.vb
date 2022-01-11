@@ -12,7 +12,7 @@ Imports System.Web.Mvc
 
 Namespace AngularReportingLocalizationExample.Controllers
 	Public Class ReportDesignerController
-		Inherits ReportDesignerApiControllerBase
+		Inherits ReportDesignerApiController
 
 		' GET: ReportDesigner
 		Public Function Index() As ActionResult
