@@ -1,8 +1,8 @@
 <div>
-<dx-report-designer [reportUrl]="reportUrl" height="700px" [allowMDI]="allowMDI" cssClass='myDesigner'>
-    <dxrd-request-options [getDesignerModelAction]="getDesignerModelAction" [host]="hostUrl"></dxrd-request-options>
-    <dxrd-callbacks
+  <dx-report-designer [reportUrl]="reportName" height="700px" >
+      <dxrd-request-options [getDesignerModelAction]="getDesignerModelAction" [host]="host"></dxrd-request-options>
+      <dxrd-callbacks
         (CustomizeLocalization)="CustomizeLocalization($event)">
     </dxrd-callbacks>
-</dx-report-designer>
+  </dx-report-designer>
 </div>
