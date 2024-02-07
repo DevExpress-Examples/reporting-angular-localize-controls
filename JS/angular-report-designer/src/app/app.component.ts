@@ -30,11 +30,11 @@ import deReportingMessages from "../dx-reporting.de.json";
 })
 
 export class AppComponent {
-	title = 'DXReportDesignerSample';
-	getDesignerModelAction = "/ReportDesigner/GetReportDesignerModel";
-	reportName = "Products";
-	host = 'http://localhost:56742/';
-  CustomizeLocalization(event) {
+    title = 'DXReportDesignerSample';
+    getDesignerModelAction = "/ReportDesigner/GetReportDesignerModel";
+    reportName = "Products";
+    host = 'http://localhost:56742/';
+    CustomizeLocalization(event) {
     event.args.LoadMessages(deAnalyticMessages);
     event.args.LoadMessages(deReportingMessages);
   }
