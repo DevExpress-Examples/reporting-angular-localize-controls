@@ -35,8 +35,8 @@ Open your browser (http://localhost:4200/) to see the result. The application di
 
 ## Files to Review
 
-* [app.component.html](JS/angular-report-designer/src/app/app.component.html)
-* [app.component.ts](JS/angular-report-designer/src/app/app.component.ts)
+* [app.component.html](angular-report-designer/src/app/app.component.html)
+* [app.component.ts](angular-report-designer/src/app/app.component.ts)
 
 ## Documentation
 
