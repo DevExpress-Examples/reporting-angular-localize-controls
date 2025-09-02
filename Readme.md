@@ -6,22 +6,30 @@
 <!-- default badges end -->
 # Reporting for Angular - How to Localize the Reporting Controls in an Angular Application
 
-This example includes the server-side (backend) application which is an ASP.NET MVC application created from the DevExpress Visual Studio template.
+This example includes the server-side (backend) application which is an ASP.NET Core application created from the DevExpress CLI template.
 
-## Implementation Details
+## Quick Start
 
-To run the example, perform the following steps:
+### Server
 
-1. Open the **CS** or **VB** solution in Visual Studio and rebuild to install the required NuGet packages.
-2. Run the Visual Studio project.
-3. Open the command prompt, navigate to the **JS\angular-report-designer** folder, and run the commands:
-    
+In the *ServerApp* folder, run the following command:
+
+```
+dotnet run
+```
+
+The server starts at http://localhost:5000. To debug the server, run the application in Visual Studio.
+
+### Client
+
+In the *angular-report-designer* folder, run the following commands:
+
 ```
 npm install
 npm start
 ```
 
-4. Open the URL **localhost:4200**  in your browser.
+Open your browser (http://localhost:4200/) to see the result. The application displays the Web Report Designer.
 
 ![](/images/screenshot.png)
 
@@ -29,6 +37,7 @@ npm start
 
 * [app.component.html](JS/angular-report-designer/src/app/app.component.html)
 * [app.component.ts](JS/angular-report-designer/src/app/app.component.ts)
+
 ## Documentation
 
 * [Localization](https://docs.devexpress.com/XtraReports/401586)
