@@ -29,7 +29,6 @@ export class App {
     host = 'http://localhost:5000/';
     CustomizeLocalization(event) {
       event.args.LoadMessages(deAnalyticMessages);
-      console.log("XXXXX");
       event.args.LoadMessages(deReportingMessages);
   }
 }
