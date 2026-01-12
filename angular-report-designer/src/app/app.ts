@@ -1,6 +1,4 @@
 import { Component, ViewEncapsulation } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { RouterOutlet } from '@angular/router';
 import { DxReportDesignerModule } from 'devexpress-reporting-angular';
 import 'devexpress-reporting/dx-richedit';
 import deAnalyticMessages from "../dx-analytics-core.de.json";
@@ -8,13 +6,9 @@ import deReportingMessages from "../dx-reporting.de.json";
 
 @Component({
   selector: 'app-root',
+  imports: [DxReportDesignerModule],
   encapsulation: ViewEncapsulation.None,
-  standalone: true,
-  imports: [
-	CommonModule, 
-	RouterOutlet,
-	DxReportDesignerModule],
-  templateUrl: './app.component.html',
+  templateUrl: './app.html',
   styleUrls: [
     "../../node_modules/ace-builds/css/ace.css",
     "../../node_modules/ace-builds/css/theme/dreamweaver.css",
@@ -28,14 +22,14 @@ import deReportingMessages from "../dx-reporting.de.json";
     "../../node_modules/devexpress-reporting/dist/css/dx-reportdesigner.css"
 ]
 })
-
-export class AppComponent {
-    title = 'DXReportDesignerSample';
-    getDesignerModelAction = "/DXXRD/GetDesignerModel";
+export class App {
+  title = 'DXReportDesignerSample';
+    getDesignerModelAction = "/DXXRD/GetDesignerModel"
     reportName = "TestReport";
-    host = 'http://localhost:5000';
+    host = 'http://localhost:5000/';
     CustomizeLocalization(event) {
-    event.args.LoadMessages(deAnalyticMessages);
-    event.args.LoadMessages(deReportingMessages);
+      event.args.LoadMessages(deAnalyticMessages);
+      console.log("XXXXX");
+      event.args.LoadMessages(deReportingMessages);
   }
 }
