@@ -3,6 +3,7 @@ import { DxReportDesignerModule } from 'devexpress-reporting-angular';
 import 'devexpress-reporting/dx-richedit';
 import deAnalyticMessages from "../dx-analytics-core.de.json";
 import deReportingMessages from "../dx-reporting.de.json";
+import deRichMessages from "../dx-rich.de.json";
 
 @Component({
   selector: 'app-root',
@@ -29,7 +30,7 @@ export class App {
     host = 'http://localhost:5000/';
     CustomizeLocalization(event) {
       event.args.LoadMessages(deAnalyticMessages);
-      console.log("XXXXX");
       event.args.LoadMessages(deReportingMessages);
+      event.args.LoadMessages(deRichMessages);
   }
 }
