@@ -44,7 +44,7 @@ Open your browser (http://localhost:4200/) to see the result. The application di
 * [Report Designer Integration in Angular](https://docs.devexpress.com/XtraReports/119431)
 * [Report Designer's Server-Side Configuration (ASP.NET MVC)](https://docs.devexpress.com/XtraReports/118371)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-angular-localize-controls&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-angular-localize-controls&~~~was_helpful=no)
 
